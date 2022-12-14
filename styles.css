@@ -1,0 +1,181 @@
+.app {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 100vh;
+  background-color: #191816;
+}
+
+.left-infos {
+  display: flex;
+  background-color: #191816;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-infos {
+  background-image: url("./images/side-image-2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.mid-left-infos {
+  display: flex;
+  background-color: #24221f;
+  width: 572px;
+  height: 512px;
+  padding: 50px;
+  text-align: center;
+}
+
+#header-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px 60px;
+}
+
+.header-login {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 6px;
+  flex-direction: column;
+  font-family: Poppins;
+}
+
+.header-login img {
+  margin-right: 15px;
+}
+
+.header-login span {
+  color: #afb6c2;
+  font-family: Roboto;
+}
+
+.header-login h2 {
+  margin-right: 70px;
+  margin-bottom: 5px;
+  color: #d4ccb6;
+  font-size: 24px;
+}
+
+.infos-login {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.infos-login input {
+  align-items: center;
+  border-radius: 6px;
+  width: 335px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-family: Roboto;
+  background-color: transparent;
+  border: 2px solid;
+}
+
+#emailborder {
+  border: 1px solid #ffc632;
+  border-width: 5px;
+}
+
+.infos-login ::placeholder {
+  padding: 30px;
+}
+
+.infos-login label {
+  margin: 5px;
+  color: #afb6c2;
+}
+
+#passwordl {
+  margin-top: 15px;
+  border: none;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.remember-checkbox input {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+}
+
+.remember a {
+  color: #ffc632;
+}
+
+.finish {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.finish ::placeholder {
+  text-align: center;
+}
+
+.finish input {
+  margin-left: 35px;
+  height: 50px;
+  width: 334px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-color: #ffc632;
+  background-color: #ffc632;
+}
+
+.finish ::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  color: #473404;
+}
+
+.remember-checkbox {
+  color: #afb6c2;
+  font-family: Roboto;
+}
+
+#createaccount {
+  margin-left: 30px;
+  color: #ffc632;
+}
+
+#createaccount a {
+  color: #ffc632;
+  font-family: Poppins;
+}
+
+.email img {
+  position: absolute;
+  bottom: 31px;
+  left: 8px;
+  /* filter: invert(93%) sepia(15%) saturate(5961%) hue-rotate(331deg)
+    brightness(106%) contrast(101%); */
+}
+
+.email {
+  position: relative;
+  display: inline;
+}
+
+.senha {
+  position: relative;
+  display: inline;
+}
+
+.senha img {
+  position: absolute;
+  top: 13px;
+  right: 319px;
+}
